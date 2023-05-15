@@ -16,9 +16,13 @@ public class Book
     [Required]
     public string BookName { get; set; } = null!;
 
-    public decimal Price { get; set; }
+    [Required]
 
+    public decimal? Price { get; set; } =null!;
+    
+    [Required]
     public string Category { get; set; } = null!;
 
+    [Required]
     public string Author { get; set; } = null!;
 }

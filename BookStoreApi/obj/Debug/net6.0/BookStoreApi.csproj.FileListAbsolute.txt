@@ -78,8 +78,5 @@ D:\KULIAH\restful\drwa\BookStoreApi\obj\Debug\net6.0\refint\BookStoreApi.dll
 D:\KULIAH\restful\drwa\BookStoreApi\obj\Debug\net6.0\BookStoreApi.pdb
 D:\KULIAH\restful\drwa\BookStoreApi\obj\Debug\net6.0\BookStoreApi.genruntimeconfig.cache
 D:\KULIAH\restful\drwa\BookStoreApi\obj\Debug\net6.0\ref\BookStoreApi.dll
-D:\KULIAH\restful\drwa\BookStoreApi\bin\Debug\net6.0\System.Net.Http.Formatting.dll
-D:\KULIAH\restful\drwa\BookStoreApi\bin\Debug\net6.0\System.Web.Http.dll
-D:\KULIAH\restful\drwa\BookStoreApi\bin\Debug\net6.0\System.Web.Http.WebHost.dll
-D:\KULIAH\restful\drwa\BookStoreApi\bin\Debug\net6.0\Newtonsoft.Json.dll
-D:\KULIAH\restful\drwa\BookStoreApi\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\KULIAH\restful\drwa\BookStoreApi\bin\Debug\net6.0\BookStoreApi.xml
+D:\KULIAH\restful\drwa\BookStoreApi\obj\Debug\net6.0\BookStoreApi.xml
