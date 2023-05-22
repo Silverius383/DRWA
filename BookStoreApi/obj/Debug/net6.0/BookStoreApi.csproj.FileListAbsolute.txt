@@ -80,3 +80,14 @@ D:\KULIAH\restful\drwa\BookStoreApi\obj\Debug\net6.0\BookStoreApi.genruntimeconf
 D:\KULIAH\restful\drwa\BookStoreApi\obj\Debug\net6.0\ref\BookStoreApi.dll
 D:\KULIAH\restful\drwa\BookStoreApi\bin\Debug\net6.0\BookStoreApi.xml
 D:\KULIAH\restful\drwa\BookStoreApi\obj\Debug\net6.0\BookStoreApi.xml
+D:\KULIAH\restful\drwa\BookStoreApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\KULIAH\restful\drwa\BookStoreApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+D:\KULIAH\restful\drwa\BookStoreApi\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+D:\KULIAH\restful\drwa\BookStoreApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\KULIAH\restful\drwa\BookStoreApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\KULIAH\restful\drwa\BookStoreApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\KULIAH\restful\drwa\BookStoreApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\KULIAH\restful\drwa\BookStoreApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\KULIAH\restful\drwa\BookStoreApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\KULIAH\restful\drwa\BookStoreApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\KULIAH\restful\drwa\BookStoreApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

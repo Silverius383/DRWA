@@ -1,6 +1,7 @@
 using BookStoreApi.Models;
 using BookStoreApi.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 namespace BookStoreApi.Controllers;
 
 [ApiController]
@@ -19,6 +20,7 @@ public class BooksController : ControllerBase
 /// <response code="201">Returns the newly created item</response>
 
     [HttpGet]
+    [Authorize]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -35,6 +37,7 @@ public class BooksController : ControllerBase
 /// <response code="201">Returns the newly created item</response>
 
     [HttpGet("{id:length(24)}")]
+        [Authorize]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -58,6 +61,7 @@ public class BooksController : ControllerBase
 /// <response code="500">If the server error</response>
 /// <response code="201">Returns the newly created item</response>
     [HttpPost]
+        [Authorize]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -77,6 +81,7 @@ public class BooksController : ControllerBase
 /// <response code="500">If the server error</response>
 /// <response code="201">Returns the newly created item</response>
     [HttpPut("{id:length(24)}")]
+        [Authorize]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
@@ -105,6 +110,7 @@ public class BooksController : ControllerBase
 /// <response code="500">If the server error</response>
 /// <response code="201">Returns the newly created item</response>
     [HttpDelete("{id:length(24)}")]
+        [Authorize]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
