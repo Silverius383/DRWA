@@ -20,7 +20,7 @@ public class BooksController : ControllerBase
 /// <response code="201">Returns the newly created item</response>
 
     [HttpGet]
-    [Authorize]
+    // [Authorize]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]

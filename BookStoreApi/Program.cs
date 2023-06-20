@@ -11,6 +11,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.Configure<BookStoreDatabaseSettings>(
     builder.Configuration.GetSection("BookStoreDatabase"));
 builder.Services.AddSingleton<BooksService>();
+builder.Services.AddSingleton<KelasService>();
+builder.Services.AddSingleton<GuruService>();
+builder.Services.AddSingleton<MapelService>();
+builder.Services.AddSingleton<PresensiHarianGuruService>();
+builder.Services.AddSingleton<PresensiMengajarService>();
 
 builder.Services.AddControllers()
     .AddJsonOptions(
